@@ -1,6 +1,6 @@
 /*General App Css */
 .App {
-  margin: 90px 300px;
+  margin: 3% 15%;
   display: flex;
   flex-direction: column;
   background-color: bisque;
@@ -32,6 +32,10 @@
   margin-bottom: 0px;
   margin-top: 10px;
   font-weight: bold;
+}
+
+.individual-information {
+  margin-left: 130px;
 }
 
 /* About */
@@ -76,9 +80,6 @@
   font-size: 14px;
 }
 
-.individual-information {
-  margin-left: 130px;
-}
 
 .location {
   margin-top: 0px;
@@ -96,35 +97,61 @@
   border-bottom: 2px solid grey;
 }
 
+.school-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.school-location {
+  margin-top: 0px;
+  font-size: 14px;
+}
+.school-header > p {
+  margin-right: 20px;
+}
+
+.school-title {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.school-information {
+  margin-left: 130px;
+}
+
 /* Skills */
 
 .skills {
+  border-bottom: 2px solid grey;
 }
 .skills-development {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .all-rows {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-left: 130px;
 }
 
 .single-row {
   display: flex;
-  flex-direction: column;
-  justify-content:left;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .item {
-  padding-right: 150px;
+  margin-right: 5%;
 }
 
-.development {
-}
 .single-project {
-  margin-left: 50px;
+  margin-left: 130px;
 }
 .project-title {
   font-size: 24px;
@@ -132,7 +159,7 @@
   color: black;
 }
 
-.project-title:hover {
+.project-title > a:hover {
   color: red;
 }
 
@@ -142,4 +169,103 @@
 }
 .project-description {
   margin-left: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    margin: 0%;
+  }
+
+  .label {
+    text-align: center;
+  }
+  .About {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .name {
+    margin-bottom: 20px;
+  }
+
+  .individual-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .individual-header > p {
+    margin-right: 20px;
+  }
+
+  .individual-title {
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .individual-information {
+    margin-left: 0px;
+  }
+
+  .location {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 14px;
+  }
+
+  .school-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+
+  .school-information {
+    margin-left: 0px;
+  }
+
+  .all-rows {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    justify-content: left;
+  }
+
+  .single-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .item {
+    margin: 10px;
+  }
+
+  .single-project {
+    margin-left: 0px;
+  }
+  .project-title {
+    font-size: 20px;
+    color: black;
+  }
+
+  .project-title > a:hover {
+    color: red;
+  }
+
+  .project-language {
+    margin-left: 30px;
+
+  }
+  .project-description {
+    margin-left: 30px;
+  }
 }

@@ -15,22 +15,22 @@ function Skills() {
                     <div className="single-row">
                         <p className="item">HTML5/CSS</p>
                         <p className="item">Unix, Git</p>
-                        <p classname="item">Java (Oracle, Android)</p>
-                        <p classname="item">Swift</p>
+                        <p className="item">Java (Oracle, Android)</p>
+                        <p className="item">Swift</p>
                     </div>
                 </div>
             </div>
             <div className="development">
                 <h1 className="label">Personal Projects</h1>
                 <div className="single-project">
-                    <a className="project-title" href="https://github.com">Blues Bot</a>
+                    <a className="project-title" href="https://github.com/ceramey1997/BluesBot">Blues Bot</a>
                     <p className="project-language">Python</p>
                     <p className="project-description">A Bot in discord that allows you to queue up songs for you and your friends to listen to together. It utilizes API's from Google and Youtube and Spotify, and can pull spotify playlists and play songs from a playlist. It also allows for many single song commands.</p>
                 </div>
                 <div className="single-project">
-                    <a className="project-title" href="https://github.com">Overwatch Fight Analyst</a>
-                    <p className="project-language">Python</p>
-                    <p className="project-description">An API program that watches video's of previous OverWatch games and predicts locations that fights will breakout in following games based on the characters choosen and the map being played in.</p>
+                    <p className="project-title">Games (<a className="project-title" href="https://github.com/ceramey1997/TicTacToe">TicTacToe</a>, <a className="project-title" href="https://github.com/ceramey1997/BlackJack">BlackJack </a>)</p>
+                    <p className="project-language">C++ and Python</p>
+                    <p className="project-description">Small commandline games. Both games handle input's from a user and both have a computer that you play against. The Bot for BlackJack is intelagent and knows the winner and loser for each hand.</p>
                 </div>
             </div>
         </div>
