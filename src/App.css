@@ -1,38 +1,145 @@
+/*General App Css */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: 90px 300px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: bisque;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+.info {
+  padding: 20px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label {
+  font-size: 24px;
+}
+
+.individual-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.individual-header > p {
+  margin-right: 20px;
+}
+
+.individual-title {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* About */
+.About {
+  border-bottom: 2px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.name > p {
+  margin: 5px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.contactInfo {
+  font-size: 12px;
+  color:rgb(64,64,64);
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo > p {
+  margin: 5px;
+}
+
+/* Work Experience */
+
+.work-experience {
+  border-bottom: 2px solid grey;
+}
+
+.time {
+  font-size: 14px;
+}
+
+.individual-information {
+  margin-left: 130px;
+}
+
+.location {
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.individual-information > ul {
+  list-style: circle;
+  line-height: 22px;
+}
+
+/* Education */
+
+.education {
+  border-bottom: 2px solid grey;
+}
+
+/* Skills */
+
+.skills {
+}
+.skills-development {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-rows {
+  display: flex;
+  flex-direction: row;
+  padding-left: 130px;
+}
+
+.single-row {
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+}
+
+.item {
+  padding-right: 150px;
+}
+
+.development {
+}
+.single-project {
+  margin-left: 50px;
+}
+.project-title {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+}
+
+.project-title:hover {
+  color: red;
+}
+
+.project-language {
+  margin-left: 50px;
+
+}
+.project-description {
+  margin-left: 50px;
 }
