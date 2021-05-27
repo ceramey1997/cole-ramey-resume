@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//cole-ramey-resume/static/css/main.e1eb6e69.chunk.css",
+    "main.js": "//cole-ramey-resume/static/js/main.99907dd9.chunk.js",
+    "main.js.map": "//cole-ramey-resume/static/js/main.99907dd9.chunk.js.map",
+    "runtime-main.js": "//cole-ramey-resume/static/js/runtime-main.6d32ed1a.js",
+    "runtime-main.js.map": "//cole-ramey-resume/static/js/runtime-main.6d32ed1a.js.map",
+    "static/js/2.a73d9ea4.chunk.js": "//cole-ramey-resume/static/js/2.a73d9ea4.chunk.js",
+    "static/js/2.a73d9ea4.chunk.js.map": "//cole-ramey-resume/static/js/2.a73d9ea4.chunk.js.map",
+    "index.html": "//cole-ramey-resume/index.html",
+    "static/css/main.e1eb6e69.chunk.css.map": "//cole-ramey-resume/static/css/main.e1eb6e69.chunk.css.map",
+    "static/js/2.a73d9ea4.chunk.js.LICENSE.txt": "//cole-ramey-resume/static/js/2.a73d9ea4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d32ed1a.js",
+    "static/js/2.a73d9ea4.chunk.js",
+    "static/css/main.e1eb6e69.chunk.css",
+    "static/js/main.99907dd9.chunk.js"
+  ]
+}
