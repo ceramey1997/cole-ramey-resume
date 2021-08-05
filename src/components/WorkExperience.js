@@ -14,8 +14,9 @@ function WorkExperience() {
                     <ul>
                         <li>Create data analytics software for lab use as well as organizational software that keeps track of lab equipment stock as well as current testing in the lab.</li>
                         <li>Development of Operations-Management software for all SiO2 Products that tracks product from molding to shipping. The Program gives detailed reports for management to create value stream maps, and other metrics tracking.</li>
-                        <li>Write and perform instrument validations for various lab equipment that includes, but is not limited to an ICP-OES, and FT-IR microscope, LO (Light Obscuration) particulate counter, and MOON OpTech.</li>
-                        <li>Develop Test Method procedures as well as documentation of experimental procedures.</li>
+                        <li>Work with quality engineers to cultivate design inputs and design outputs based on customer specifications, and develop testing procedures and validations based on the DI’s and DO’s.</li>
+                        <li>Develop test method procedures based on industry standard ISO documents.</li>
+                        <li>Perform and document experimental procedures in technical reports.</li>
                     </ul>
                 </div>
             </div>
@@ -37,15 +38,15 @@ function WorkExperience() {
             </div>
             <div className="singleJob">
                 <div className="individual-header">
-                    <p className="individual-title">Labratory Technition</p>
+                    <p className="individual-title">Labratory Technician</p>
                     <p className="time">2016-01 to 2017-12</p>
                 </div>
                 <div className="individual-information">
                     <p className="location">SiO2 Medical Products - Auburn, Al</p>
                     <ul>
-                        <li>things</li>
-                        <li>things</li>
-                        <li>things</li>
+                        <li>Write and perform instrument validations for various lab equipment  that includes, but is not limited to an ICP-OES, and FT-IR microscope, LO (Light Obscuration) particulate counter, and MOCON OpTech.</li>
+                        <li>Perform routine technical tasks and experiments to support research and development investigations.</li>
+                        <li>Worked apart of a healthy team environment.</li>
                     </ul>
                 </div>
             </div>
