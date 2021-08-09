@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Resume from './components/Resume';
@@ -12,10 +12,12 @@ function App() {
         <div>
           <Navbar />
           <MobileNavbar className='mobile'/>
+          <Switch>
             <Route path='/' exact component={Home} />
             <Route exact path='/resume' component={Resume} />
-            <Route exact path='cole-ramey-resume/personal-projects' component={PersonalProjects} />
-            <Route exact path='/cole-ramey-resume/cover-letter' component={CoverLetter} />
+            <Route exact path='/personal-projects' component={PersonalProjects} />
+            <Route exact path='/cover-letter' component={CoverLetter} />
+          </Switch>
         </div>
   );
 }

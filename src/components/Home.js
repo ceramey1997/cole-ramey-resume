@@ -16,6 +16,7 @@ function Home() {
                 <p className="home-about-me">THIS IS TO TEST THE DEPLOYMENT</p>
                 <p className="home-about-me">another test, this one changed all paths to add gh repo name</p>
                 <p className="home-about-me">well... added exact path to 'resume'</p>
+                <p className="home-about-me">added Link's instead of a tags.</p>
             </div>
         </div>
     </div>
