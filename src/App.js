@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { HashRouter as Router, Route, Switch } from "react-router-dom"
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Resume from './components/Resume';
@@ -14,10 +14,10 @@ function App() {
           <Navbar />
           <MobileNavbar className='mobile'/>
           <Switch>
-            <Route path='/cole-ramey-resume/' exact component={Home} />
-            <Route path='/cole-ramey-resume/resume' component={Resume} />
-            <Route path='/cole-ramey-resume/personal-projects' component={PersonalProjects} />
-            <Route path='/cole-ramey-resume/cover-letter' component={CoverLetter} />
+            <Route path='/' exact component={Home} />
+            <Route path='/resume' component={Resume} />
+            <Route path='/personal-projects' component={PersonalProjects} />
+            <Route path='/cover-letter' component={CoverLetter} />
           </Switch>
         </Router>
   );
