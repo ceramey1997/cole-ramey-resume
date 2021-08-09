@@ -1,0 +1,39 @@
+.mobile-navbar {
+    display: none;
+}
+
+.btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .mobile-navbar {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+    }
+
+    .mobile-navbar-link {
+        text-align: center;
+    }
+
+    .mobile-link-item > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .mobile-navbar-link > li {
+        list-style-type: none;
+        margin: 15px;
+    }
+}
