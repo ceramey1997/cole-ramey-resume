@@ -19,16 +19,16 @@ function MobileNavbar() {
             {showMobileNav && <Button text={<FaBan />} onClick={changeShowMobileNav} btnClass='btn' />}
             {showMobileNav && <ul className='mobile-navbar-link'>
                 <li className="mobile-link-item">
-                    <Link to='/'>Home</Link>
+                    <Link to='/' onClick={changeShowMobileNav}>Home</Link>
                 </li>
                 <li className="mobile-link-item">
-                    <Link to='/resume'>Resume</Link>
+                    <Link to='/resume' onClick={changeShowMobileNav}>Resume</Link>
                 </li>
                 <li className="mobile-link-item">
-                    <Link to='/personal-projects'>Personal Projects</Link>
+                    <Link to='/personal-projects' onClick={changeShowMobileNav}>Personal Projects</Link>
                 </li>
                 <li className="mobile-link-item">
-                    <Link to='/cover-letter'>Cover Letter</Link>
+                    <Link to='/cover-letter' onClick={changeShowMobileNav}>Cover Letter</Link>
                 </li>
             </ul>}
         </nav>
