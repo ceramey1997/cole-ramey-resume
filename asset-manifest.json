@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/cole-ramey-resume/static/css/main.aa499ed4.chunk.css",
-    "main.js": "/cole-ramey-resume/static/js/main.ab513dbe.chunk.js",
-    "main.js.map": "/cole-ramey-resume/static/js/main.ab513dbe.chunk.js.map",
+    "main.css": "/cole-ramey-resume/static/css/main.75a75dbe.chunk.css",
+    "main.js": "/cole-ramey-resume/static/js/main.efcc4594.chunk.js",
+    "main.js.map": "/cole-ramey-resume/static/js/main.efcc4594.chunk.js.map",
     "runtime-main.js": "/cole-ramey-resume/static/js/runtime-main.f4031488.js",
     "runtime-main.js.map": "/cole-ramey-resume/static/js/runtime-main.f4031488.js.map",
-    "static/js/2.3a67c59c.chunk.js": "/cole-ramey-resume/static/js/2.3a67c59c.chunk.js",
-    "static/js/2.3a67c59c.chunk.js.map": "/cole-ramey-resume/static/js/2.3a67c59c.chunk.js.map",
+    "static/js/2.91541220.chunk.js": "/cole-ramey-resume/static/js/2.91541220.chunk.js",
+    "static/js/2.91541220.chunk.js.map": "/cole-ramey-resume/static/js/2.91541220.chunk.js.map",
     "index.html": "/cole-ramey-resume/index.html",
-    "static/css/main.aa499ed4.chunk.css.map": "/cole-ramey-resume/static/css/main.aa499ed4.chunk.css.map",
-    "static/js/2.3a67c59c.chunk.js.LICENSE.txt": "/cole-ramey-resume/static/js/2.3a67c59c.chunk.js.LICENSE.txt",
+    "static/css/main.75a75dbe.chunk.css.map": "/cole-ramey-resume/static/css/main.75a75dbe.chunk.css.map",
+    "static/js/2.91541220.chunk.js.LICENSE.txt": "/cole-ramey-resume/static/js/2.91541220.chunk.js.LICENSE.txt",
     "static/media/cole_headshot.7e20c9c9.png": "/cole-ramey-resume/static/media/cole_headshot.7e20c9c9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4031488.js",
-    "static/js/2.3a67c59c.chunk.js",
-    "static/css/main.aa499ed4.chunk.css",
-    "static/js/main.ab513dbe.chunk.js"
+    "static/js/2.91541220.chunk.js",
+    "static/css/main.75a75dbe.chunk.css",
+    "static/js/main.efcc4594.chunk.js"
   ]
 }
