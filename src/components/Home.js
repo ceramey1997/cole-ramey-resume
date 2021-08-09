@@ -14,6 +14,7 @@ function Home() {
             <div className="home-container">
                 <p className="home-about-me">Some information about me piouqwehrksjdf;ashepandf;askdhfapseiuhaidhfa;skdhfasuidfhaksjdfhlkasdhflkajshdflkjahsdlfkjhasdlfkjhasdlfkjhasdfklh</p>
                 <p className="home-about-me">THIS IS TO TEST THE DEPLOYMENT</p>
+                <p className="home-about-me">another test, this one changed all paths to add gh repo name</p>
             </div>
         </div>
     </div>
