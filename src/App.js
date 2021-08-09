@@ -6,12 +6,10 @@ import PersonalProjects from './components/PersonalProjects';
 import CoverLetter from './components/CoverLetter';
 import MobileNavbar from "./components/MobileNavbar";
 
-//import windowDimensions from './windowDimensions';
 function App() {
 
-  console.log(process.env.PUBLIC_URL)
   return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename="cole-ramey-resume">
           <Navbar />
           <MobileNavbar className='mobile'/>
           <Switch>
