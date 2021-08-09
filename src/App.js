@@ -9,12 +9,13 @@ import MobileNavbar from "./components/MobileNavbar";
 //import windowDimensions from './windowDimensions';
 function App() {
 
+  console.log(process.env.PUBLIC_URL)
   return (
         <Router basename={process.env.PUBLIC_URL}>
           <Navbar />
           <MobileNavbar className='mobile'/>
           <Switch>
-            <Route path='' exact component={Home} />
+            <Route path='/' exact component={Home} />
             <Route path='/resume' component={Resume} />
             <Route path='/personal-projects' component={PersonalProjects} />
             <Route path='/cover-letter' component={CoverLetter} />
