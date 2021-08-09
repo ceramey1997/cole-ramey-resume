@@ -14,7 +14,7 @@ function MobileNavbar() {
     }
 
     return (
-        <div className='mobile-navbar'>
+        <nav className='mobile-navbar'>
             {!showMobileNav && <Button text={<FaBars />} onClick={changeShowMobileNav} btnClass='btn' />}
             {showMobileNav && <Button text={<FaBan />} onClick={changeShowMobileNav} btnClass='btn' />}
             {showMobileNav && <ul className='mobile-navbar-link'>
@@ -31,17 +31,8 @@ function MobileNavbar() {
                     <Link to='/cover-letter'>Cover Letter</Link>
                 </li>
             </ul>}
-        </div>
+        </nav>
     )
 }
 
 export default MobileNavbar
-
-
-/*
-            <div className="mobile-navbar">
-                {!showMobileNav && <Button text={<FaBars />} onClick={changeShowMobileNav} btnClass='btn' />}
-
-                {showMobileNav && <MobileNavBar showingMobileNav={showMobileNav}/>}
-            </div>
-            */
