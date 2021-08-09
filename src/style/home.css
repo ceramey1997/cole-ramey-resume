@@ -2,14 +2,14 @@
 .home-page {
     display: flex;
     flex-direction: column;
-    background-color: rgba(161, 238, 230, 0.596);
-    height: 90vh;
 }
 
 .home-page-info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .home-page-info > h1 {
@@ -28,10 +28,17 @@
     margin-bottom: 12px;
 }
 
+.home-about-me {
+    margin-top: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
 .head-shot {
     margin-top: 2rem;
     width: 200px;
     height: 200px;
+    margin-left: 2rem;
 }
 
 @media screen and (max-width: 1200px) {

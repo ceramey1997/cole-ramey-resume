@@ -27,9 +27,6 @@ function MobileNavbar() {
                 <li className="mobile-link-item">
                     <Link to='/personal-projects' onClick={changeShowMobileNav}>Personal Projects</Link>
                 </li>
-                <li className="mobile-link-item">
-                    <Link to='/cover-letter' onClick={changeShowMobileNav}>Cover Letter</Link>
-                </li>
             </ul>}
         </nav>
     )
