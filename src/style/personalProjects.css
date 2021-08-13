@@ -16,14 +16,19 @@
   margin: 20px 100px 10px 100px;
 }
 
-.project-title {
-  font-size: 24px;
+.project-link {
+  font-size: 20px;
   text-decoration: none;
   color: black;
 }
 
-.project-title > a:hover {
-    color: rgb(120,120,120);
+.project-link:hover {
+  color: rgb(19, 69, 175);
+}
+
+.project-title {
+  font-size: 24px;
+  color: black;
 }
 
 .project-language {
@@ -40,6 +45,7 @@
 
 @media screen and (max-width: 1200px) {
   .development {
+    height: 95vh;
     margin: 0%;
   }
 
@@ -47,18 +53,16 @@
     margin-left: 0px;
   }
   .project-title {
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
     font-size: 20px;
     color: black;
   }
 
-  .project-title > a:hover {
-    color: red;
-  }
-
   .project-language {
     margin-left: 30px;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
   }
   .project-description {
     margin-left: 30px;
