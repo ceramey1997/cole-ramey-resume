@@ -7,10 +7,10 @@ function Education() {
             <div className="single-school">
                 <div className="school-header">
                     <p className="school-title">Bachelor of Software Engineering</p>
-                    <p className='time'>2017-08 to present</p>
+                    <p className='time'>August 2017 - December 2021</p>
+                    <p className='school-location'>Auburn University - Auburn, Al</p>
                 </div>
                 <div className="school-information">
-                    <p className='school-location'>Auburn University - Auburn, Al</p>
                 </div>
             </div>
             {/*<div className="single-school">

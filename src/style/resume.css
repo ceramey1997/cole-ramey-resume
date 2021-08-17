@@ -19,11 +19,11 @@
 
 .individual-header {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: left;
     padding-bottom: 0px;
     margin-bottom: 5px;
-    align-items: center;
+    align-items: left;
 }
 
 .individual-header > p {
@@ -87,8 +87,8 @@
 .location {
     margin-top: 5px;
     margin-bottom: 8px;
-    margin-left: 15px;
     font-size: 14px;
+    font-style: italic;
 }
 
 .individual-information > ul {
@@ -110,19 +110,20 @@
 
 .school-header {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: left;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    align-items: center;
+    align-items: left;
 }
 
 .school-location {
     margin-top: 0px;
     font-size: 14px;
+    font-style: italic;
 }
 .school-header > p {
-    margin-right: 20px;
+    margin: 2px;
 }
 
 .school-title {
@@ -185,7 +186,7 @@
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: flex-start;
+        margin-bottom: 10px;
     }
 
     .individual-header > p {
