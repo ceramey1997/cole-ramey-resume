@@ -19,7 +19,7 @@ function PersonalProjects() {
         <div className="single-project">
             <p className="project-title">Games (<a className="project-link" href="https://github.com/ceramey1997/TicTacToe">TicTacToe</a>, <a className="project-link" href="https://github.com/ceramey1997/BlackJack">BlackJack</a>)</p>
             <p className="project-language">C++ and Python</p>
-            <p className="project-description">Small commandline games. Both games handle input's from a user and both have a computer that you play against. The Bot for BlackJack is intelagent and knows the winner and loser for each hand.</p>
+            <p className="project-description">Small commandline games. Both games handle input's from a user and both have a computer that you play against.</p>
         </div>
     </div>
     )

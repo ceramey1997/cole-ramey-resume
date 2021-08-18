@@ -39,7 +39,7 @@ function WorkExperience() {
             <div className="singleJob">
                 <div className="individual-header">
                     <p className="individual-title">Labratory Technician</p>
-                    <p className="time">2016-01 to 2017-12</p>
+                    <p className="time">January 2016 - December 2017</p>
                     <p className="location">SiO<sub>2</sub> Medical Products - Auburn, AL</p>
                 </div>
                 <div className="individual-information">
