@@ -13,8 +13,8 @@ function App() {
           <Navbar />
           <MobileNavbar className='mobile'/>
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/resume' component={Resume} />
+            <Route exact path='/home' component={Home} />
+            <Route exact path='/' component={Resume} />
             <Route exact path='/personal-projects' component={PersonalProjects} />
           </Switch>
         </div>

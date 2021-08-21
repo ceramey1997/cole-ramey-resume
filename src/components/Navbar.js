@@ -7,10 +7,10 @@ function Navbar() {
         <nav className='navbar'>
             <ul className="navbar-link">
                 <li className="navbar-link-item">
-                    <Link to='/'>Home</Link>
+                    <Link to='/home'>Home</Link>
                 </li>
                 <li className="navbar-link-item">
-                    <Link to='/resume'>Resume</Link>
+                    <Link to='/'>Resume</Link>
                 </li>
                 <li className="navbar-link-item">
                     <Link to='/personal-projects'>Personal Projects</Link>
