@@ -29,7 +29,7 @@ function WorkExperience() {
                 </div>
                 <div className="individual-information">
                     <ul>
-                        <li>DevOp's experience using Openstack, Artifactory, and Jenkins for testing automation.</li>
+                        <li>DevOps experience using Openstack, Artifactory, and Jenkins for testing automation.</li>
                         <li>Established an extensive database using Python and a Microsoft SQL Server to keep track of bills and other information for Adtran's patents.</li>
                         <li>introduced simple software programs to enable other developers to increase productivity.</li>
                         <li>Converted a large codebase from Python2 to Python3, housed in a GitHub repository, by writing extensive unit tests and providing code reviews.</li>
