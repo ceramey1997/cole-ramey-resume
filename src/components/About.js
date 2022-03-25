@@ -7,7 +7,7 @@ function About() {
                 <p className="title">Software Developer</p>
             </div>
             <div className="contactInfo">
-                <p>Auburn, Al 36832</p>
+                <p>Hunstville, Al 36832</p>
                 <p>cole.ramey.dev@gmail.com</p>
                 <p>(334) 332 8229</p>
             </div>
