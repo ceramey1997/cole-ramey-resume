@@ -6,8 +6,23 @@ function WorkExperience() {
             <h1 className="label">Experience</h1>
             <div className="singleJob">
                 <div className="individual-header">
+                    <p className="individual-title">Software Developer</p>
+                    <p className='time'>September 2021 - Present</p>
+                    <p className='location'>DESE Research Inc. - Huntsville, AL</p>
+                </div>
+                <div className="individual-information">
+                    <ul>
+                        <li>Received Top Secret clearance from the United States Government</li>
+                        <li>Created a Python package that incorperated open-source projects</li>
+                        <li>Worked with Docker, Terraform, Ansible, and Nomad to create custom environments for a plethora of open source software analysis tools.</li>
+                        <li>Used Svelte to create a front-end application</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="singleJob">
+                <div className="individual-header">
                     <p className="individual-title">R&D Systems Engineer</p>
-                    <p className='time'>August 2019 - Present</p>
+                    <p className='time'>August 2019 - September 2021</p>
                     <p className='location'>SiO<sub>2</sub> Materials Science - Auburn, AL</p>
                 </div>
                 <div className="individual-information">

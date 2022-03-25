@@ -9,11 +9,14 @@ function Home() {
         <div className="home-page-info">
             <h1>Cole Edward Ramey</h1>
             <div className="home-container">
-                <p className="home-info">| Engineer | Python | SQL | Web-dev | App Developer |</p>
+                <p className="home-info">| Engineer | Python | Docker | Web-dev | App Developer |</p>
             </div>
             <div className="home-container">
                 <p className="home-about-me">
-                    My name is Cole Ramey and I am a current resident of Auburn, AL. In 2016 I started a job as a coating technician at SiO<sub>2</sub> Materials Science. After observing the automation engineer’s role on the assembly line robots, I quickly realized software engineering was what I wanted to study.
+                    My name is Cole Ramey and I am a current resident of Huntsville, AL. In September 2021 I accepted a position with DESE Research as a Software Developer, shortly after I recieved my TS clearance that is required for my project. I work on a small team of three developers, and have taken on many responsibilites on my team and in the company. I organize and run the weekly tech-talk, I also assist many teams with their CI/CD pipeline creation and integration.
+                </p>
+                <p className="home-about-me">
+                in 2016 I started a job as a coating technician at SiO<sub>2</sub> Materials Science. After observing the automation engineer’s role on the assembly line robots, I quickly realized software engineering was what I wanted to study.
                 </p>
                 <p className="home-about-me">
                     I began my college career at Southern Union State Community College with a full scholarship. During this time, I was promoted to a Laboratory Technician at SiO<sub>2</sub>. After two years at Southern Union, I transferred to Auburn University to finish my degree in Software Engineering. As a result of my transfer, I became a Co-op with ADTRAN, a telecommunications networking provider in Huntsville, AL. My time at ADTRAN helped solidify my interest in software as well as strengthen my skills as a developer. I was able to work with many technologies, spanning from Python to OpenStack, as well as general testing and team collaboration with larger codebases.

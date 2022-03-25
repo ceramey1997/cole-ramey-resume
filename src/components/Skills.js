@@ -9,7 +9,7 @@ function Skills() {
                     <div className="single-row">
                         <p className="item">Agile (Scrum)</p>
                         <p className="item">Python</p>
-                        <p className="item">Javascript (NodeJS, ReactJS)</p>
+                        <p className="item">Javascript (NodeJS, ReactJS, Svelte)</p>
                         <p className="item">SQL (MySQL, NoSQL)</p>
                     </div>
                     <div className="single-row">
